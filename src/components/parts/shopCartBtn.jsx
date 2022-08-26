@@ -1,5 +1,5 @@
 import * as React from "react"
-import './shopCartBtn.scss'
+import '../../styles/shopCartBtn.scss'
 
 // ショッピングカートボタン実装
 function ShopCartBtn(props) {

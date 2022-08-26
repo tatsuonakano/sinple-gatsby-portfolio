@@ -1,0 +1,101 @@
+@charset "utf-8";
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+// ショッピングカートボタン
+
+
+.buy-btn,
+a.buy-btn,
+button.buy-btn {
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.buy-btn-wrap {
+  margin-bottom: 20px;
+  padding: 30px 10px;
+
+  text-align: center;
+}
+
+.buy-btn-wrap--orange {
+  background: #00b7ee;
+}
+
+a.buy-btn-tag {
+  padding: 1.25rem 3rem 1.25rem 80px;
+}
+
+a.buy-btn-tag:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50px;
+  height: 100%;
+
+  content: "";
+
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+a.buy-btn-tag--ver {
+  padding: calc(54px + 1rem) 2rem 1rem 2rem;
+
+  color: #000;
+  font:bold;
+  border-bottom: 5px solid #00b7ee;
+  background: #00b7ee;
+}
+
+a.buy-btn-tag--ver:before {
+  position: absolute;
+  top: -1px;
+  left: 0;
+
+  width: 100%;
+  height: 54px;
+
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: #fff;
+}
+
+a.buy-btn-tag--ver i {
+  font-size: 120%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50px;
+  width: 100%;
+  padding: 1.5rem 0;
+
+  text-align: center;
+  letter-spacing: 0;
+
+  color: #00b7ee;
+}
+
+// a.buy-btn-tag--ver:hover {
+//   margin-top: 3px;
+//
+//   border-bottom: 2px solid #00b7ee;
+//   background: #00b7ee;
+// }
+// ショッピングカートボタン終わり
+
+.text-lavender-color {
+  color: #9CC5E6;
+}

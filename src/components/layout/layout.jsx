@@ -5,13 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 import * as React from "react"
-
 import Header from "./header"
 import Hero from "./hero"
 import FirstSubColumn from "./firstSubColumn"
 import ThirdSubColumn from "./thirdSubColumn"
 import Footer from "./footer"
-import './layout.scss';
+import '../../styles/layout.scss';
+
+
 
 
 
@@ -19,7 +20,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+
       <body className="bg-white">
+
         <Header />
         <Hero />
         <div className="container-fluid">
@@ -45,3 +48,4 @@ const Layout = ({ children }) => {
 
 
 export default Layout
+

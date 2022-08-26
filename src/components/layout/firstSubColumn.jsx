@@ -1,7 +1,7 @@
 
 import React from "react"
 import { Link } from 'gatsby';
-import './layout.scss';
+import '../../styles/layout.scss';
 import Accordion from 'react-bootstrap/Accordion'
 
 
