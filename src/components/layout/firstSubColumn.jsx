@@ -8,8 +8,8 @@ import Accordion from 'react-bootstrap/Accordion'
 const FirstSubColumn = () => (
 
   <>
-    <div className="d-none d-sm-block col-sm-4 col-xl-3 scrollbarbox ">
-      <div className="scrollbar sticky">
+    <div className="d-none d-sm-block col-sm-4 col-xl-3">
+      <div>
 
         <Accordion defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']} alwaysOpen flush>
 

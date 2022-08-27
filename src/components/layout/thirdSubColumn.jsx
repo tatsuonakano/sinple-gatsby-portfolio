@@ -5,7 +5,7 @@ import React from "react"
 const ThirdSubcolumn = () => (
 
   <>
-    <div className="d-none d-xl-block col bg-white"></div>
+    <div className="d-none d-xl-block col"></div>
   </>
 )
 

@@ -6,7 +6,7 @@ import React from "react"
 const Hero = () => (
 
   <>
-    <div className="bg-secondary text-center">HERO</div>
+    <div className="text-center"></div>
 
   </>
 )

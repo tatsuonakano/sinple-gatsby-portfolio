@@ -20,9 +20,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-
-      <body className="bg-white">
-
+      <body className="bg-whigt">
         <Header />
         <Hero />
         <div className="container-fluid">
@@ -39,8 +37,8 @@ const Layout = ({ children }) => {
             </div>
             <ThirdSubColumn />
           </div>
-        </div>
         <Footer />
+          </div >
       </body>
     </>
   )
