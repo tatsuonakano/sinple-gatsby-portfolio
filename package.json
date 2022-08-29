@@ -28,6 +28,7 @@
     "gatsby-remark-text-decoration": "^1.1.0",
     "gatsby-source-filesystem": "^4.21.1",
     "gatsby-transformer-sharp": "^4.21.0",
+    "lottie-web": "^5.9.6",
     "react": "^18.1.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.1.0",
