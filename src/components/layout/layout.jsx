@@ -23,10 +23,10 @@ const Layout = ({ children }) => {
       <body>
         <Header />
         <Hero />
-        <div className="container-fluid background-image">
+        <div className="pt-3 container-fluid background-image">
           <div className="row">
             <FirstSubColumn />
-            <div className="col-12 col-sm-8 col-xl-6">
+            <div className="col-12 col-sm-8 col-xl-6 glass-base glass-white-bg opacity-lv-05">
               <div className="mainColumnBoxStyle">
                 {children}
               </div>
