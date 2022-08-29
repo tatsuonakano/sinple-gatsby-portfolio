@@ -20,13 +20,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <body className="bg-whigt">
+      <body>
         <Header />
         <Hero />
-        <div className="container-fluid">
+        <div className="container-fluid background-image">
           <div className="row">
             <FirstSubColumn />
-            <div className="col-12 col-sm-8 col-xl-6 bg-light">
+            <div className="col-12 col-sm-8 col-xl-6">
               <div className="mainColumnBoxStyle">
                 {children}
               </div>

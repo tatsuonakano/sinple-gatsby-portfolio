@@ -13,9 +13,9 @@ const FirstSubColumn = () => (
 
         <Accordion defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']} alwaysOpen flush>
 
-          <Accordion.Item eventKey="0">
+          <Accordion.Item className="test" eventKey="0">
             <Accordion.Header >
-              <span className="accordionHeaderStyle">:カテゴリー
+              <span className="accordionHeaderStyle">Adobe作例
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -25,7 +25,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="1">
             <Accordion.Header>
-              <span className="accordionHeaderStyle"> :カテゴリー
+              <span className="accordionHeaderStyle">Stable diffusion作例
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -35,7 +35,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="2">
             <Accordion.Header coler="info">
-              <span className="accordionHeaderStyle">:カテゴリー
+              <span className="accordionHeaderStyle">Lottie
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -45,7 +45,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="3">
             <Accordion.Header>
-              <span className="accordionHeaderStyle"> :カテゴリー
+              <span className="accordionHeaderStyle">Gatsby
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -55,7 +55,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="4">
             <Accordion.Header>
-              <span className="accordionHeaderStyle"> :カテゴリー
+              <span className="accordionHeaderStyle">Github
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -65,7 +65,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="5">
             <Accordion.Header>
-              <span className="accordionHeaderStyle">:カテゴリー
+              <span className="accordionHeaderStyle">Stock Photo
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -75,7 +75,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="6">
             <Accordion.Header>
-              <span className="accordionHeaderStyle">:カテゴリー
+              <span className="accordionHeaderStyle">3D表示
               </span>
             </Accordion.Header>
             <Accordion.Body>
@@ -85,7 +85,7 @@ const FirstSubColumn = () => (
 
           <Accordion.Item eventKey="7">
             <Accordion.Header>
-              <span className="accordionHeaderStyle"> :カテゴリー
+              <span className="accordionHeaderStyle">This Site
               </span>
             </Accordion.Header>
             <Accordion.Body>

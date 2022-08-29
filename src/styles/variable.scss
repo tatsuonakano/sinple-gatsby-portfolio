@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+// グラスモーフィズム変数
+
+.glass-base{
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass-white-bg{
+  background-color: rgb(255, 255, 255);
+}
+
+.glass-white-text{
+  background-color: rgb(255, 255, 255);
+}
+
+.opacity-lv-015{
+  opacity: 0.15;
+}
+
+.opacity-lv-02{
+  opacity: 0.2;
+}
+
+.opacity-lv-025{
+  opacity: 0.25;
+}
+
+.opacity-lv-03{
+  opacity: 0.3;
+}
+
+.opacity-lv-035{
+  opacity: 0.35;
+}
+
+.opacity-lv-04{
+  opacity: 0.4;
+}
+
+.opacity-lv-045{
+  opacity: 0.45;
+}
+
+.opacity-lv-05{
+  opacity: 0.5;
+}
+
+.opacity-lv-055{
+  opacity: 0.55;
+}
+
+.opacity-lv-06{
+  opacity: 0.6;
+}
+
+.opacity-lv-065{
+  opacity: 0.65;
+}
+
+.opacity-lv-07{
+  opacity: 0.7;
+}
+
+
+
+

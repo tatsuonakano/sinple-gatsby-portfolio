@@ -1,5 +1,13 @@
 @charset "utf-8";
 @import "~bootstrap/scss/bootstrap";
+@import "./variable.scss";
+
+
+.background-image {
+  background-image: url(../images/bg-image.jpg);
+  background-position: bottom;
+  background-size:cover
+}
 
 .scrollbarbox {
   height: 100%;
@@ -8,11 +16,12 @@
 
 .scrollbar {
   height: 900px;
-  // background-color: black;
+  background-color: black;
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
 }
+
 
 .headerItemStyle {
   color: white;
