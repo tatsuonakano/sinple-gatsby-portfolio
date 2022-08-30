@@ -5,12 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React from "react"
+import '../../styles/layout.scss';
 
 const Header = () => (
 
   <>
     {[false,].map((expand) => (
-      <Navbar key={expand} sticky="top" bg="dark" variant="dark" expand={expand} className="mb-3" >
+      <Navbar key={expand} sticky="top" bg="dark" variant="dark" expand={expand} className="mb-3 shadow-lg" >
         <Container fluid>
           <Navbar.Brand className="headerTitleStyle" href="/">ポートフォリオ</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
