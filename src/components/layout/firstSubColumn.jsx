@@ -10,15 +10,27 @@ const FirstSubColumn = () => (
   <>
     <div className="d-none d-sm-block col-sm-4 col-xl-3">
 
-        <Accordion className="glass-base glass-white-bg bootstrap-opacity" defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']} alwaysOpen flush>
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity fs-6 fw-bold" defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']} alwaysOpen flush>
 
           <Accordion.Item eventKey="0">
             <Accordion.Header >
-              <span className="accordionHeaderStyle ">Adobe作例
+              <span className="accordionHeaderStyle">Adobe作例
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">#</Link>
+              <Link to="/#">Photoshop作例</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/post/adobe-lr">Ligthroom作例</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/post/adobe-ir">Illustrator作例</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/#">XD作例</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/#">premiere pro作例</Link>
             </Accordion.Body>
           </Accordion.Item>
 
