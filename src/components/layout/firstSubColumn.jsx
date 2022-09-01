@@ -27,10 +27,10 @@ const FirstSubColumn = () => (
               <Link to="/post/adobe-ir">Illustrator作例</Link>
             </Accordion.Body>
             <Accordion.Body>
-              <Link to="/#">XD作例</Link>
+              <Link to="/post/adobe-xd">XD作例</Link>
             </Accordion.Body>
             <Accordion.Body>
-              <Link to="/#">premiere pro作例</Link>
+              <Link to="/post/adobe-pr">premiere pro作例</Link>
             </Accordion.Body>
           </Accordion.Item>
 
@@ -40,7 +40,16 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">#</Link>
+              <Link to="/post/stable-sea">海とクジラ</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/post/stable-syber_cat">サイバー猫</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/post/stable-syber_punk">サイバーパンク</Link>
+            </Accordion.Body>
+            <Accordion.Body>
+              <Link to="/post/stable-steam_punk">スチームパンク</Link>
             </Accordion.Body>
           </Accordion.Item>
 

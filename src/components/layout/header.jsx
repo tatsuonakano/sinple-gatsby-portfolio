@@ -11,7 +11,7 @@ const Header = () => (
 
   <>
     {[false,].map((expand) => (
-      <Navbar key={expand} sticky="top" bg="dark" variant="dark" expand={expand} className="mb-3 shadow-lg bg-gradientcd " >
+      <Navbar key={expand} sticky="top" bg="dark" variant="dark" expand={expand} className="mb-3 shadow-lg bg-gradient">
         <Container fluid>
           <Navbar.Brand className="headerTitleStyle" href="/">ポートフォリオ</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
