@@ -112,7 +112,7 @@ const FirstSubColumn = () => (
               <Link to="/404">404 not found</Link>
             </Accordion.Body>
             <Accordion.Body>
-              <Link to="/">問い合わせ</Link>
+              <Link to="/inquiry">問い合わせ</Link>
             </Accordion.Body>
             <Accordion.Body>
               <Link to="/privact">プライバシーポリシー</Link>
@@ -135,7 +135,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">#</Link>
+              <Link to="/inquiry">問い合わせ</Link>
             </Accordion.Body>
           </Accordion.Item>
           
