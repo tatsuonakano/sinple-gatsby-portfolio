@@ -18,7 +18,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">Photoshop作例</Link>
+              <Link to="/post/adobe-ps">Photoshop作例</Link>
             </Accordion.Body>
             <Accordion.Body>
               <Link to="/post/adobe-lr">Ligthroom作例</Link>
