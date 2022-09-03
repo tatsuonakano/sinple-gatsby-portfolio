@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkglass_gatsby=self.webpackChunkglass_gatsby||[]).push([[567],{2632:function(e,l,t){t.r(l);var n=t(7294),a=t(9095),r=t(1597);l.default=function(){return n.createElement(a.Z,null,n.createElement("hr",null),n.createElement("h1",null,"問い合わせ"),n.createElement("hr",null),n.createElement(r.Link,{to:"/"},"サイトトップへ戻る"),n.createElement("hr",null))}}}]);
+//# sourceMappingURL=component---src-pages-inquiry-js-e061c4f84ef44ededc07.js.map
