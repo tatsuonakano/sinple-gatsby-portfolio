@@ -145,7 +145,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">#</Link>
+              <p>オフキャンバスヘッダー・グリッドレイアウト・サイドバーアコーディオン等に使用されています。</p>
             </Accordion.Body>
           </Accordion.Item>
           
