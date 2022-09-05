@@ -21,8 +21,8 @@ const Layout = ({ children }) => {
       <body>
         <Header />
         <Hero />
-        <div className="pt-3 container-fluid background-image">
-          <div className="row">
+        <div className="container-fluid background-image">
+          <div className="row pt-3">
             <FirstSubColumn />
             <div className="col-12 col-sm-8 col-xl-6 glass-base glass-white-bg opacity-lv-04">
               <div className="mainColumnBoxStyle">
@@ -35,8 +35,9 @@ const Layout = ({ children }) => {
             </div>
             <ThirdSubColumn />
           </div>
-        <Footer />
+                    <Footer />
           </div >
+
       </body>
     </>
   )
