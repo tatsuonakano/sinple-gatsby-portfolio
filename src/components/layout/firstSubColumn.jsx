@@ -14,12 +14,12 @@ const FirstSubColumn = () => (
         <Accordion className="glass-base glass-white-bg bootstrap-opacity fs-6 fw-bold" defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','10','11','12']} alwaysOpen flush>
 
           <Accordion.Item eventKey="0">
-            <Accordion.Header >
-              <span className="accordionHeaderStyle">Adobe作例
+            <Accordion.Header>
+              <span className="accordionHeaderStyle text-coler">Adobe作例
               </span>
             </Accordion.Header>
-            <Accordion.Body>
-              <Link to="/post/adobe-ps">Photoshop作例</Link>
+            <Accordion.Body >
+              <Link className=" text-coler" to="/post/adobe-ps">Photoshop作例</Link>
             </Accordion.Body>
             <Accordion.Body>
               <Link to="/post/adobe-lr">Ligthroom作例</Link>

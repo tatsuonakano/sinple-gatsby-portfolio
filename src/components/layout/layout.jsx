@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
         <div className="pt-3 container-fluid background-image">
           <div className="row">
             <FirstSubColumn />
-            <div className="col-12 col-sm-8 col-xl-6 glass-base glass-white-bg opacity-lv-055">
+            <div className="col-12 col-sm-8 col-xl-6 glass-base glass-white-bg opacity-lv-04">
               <div className="mainColumnBoxStyle">
                 {children}
               </div>
