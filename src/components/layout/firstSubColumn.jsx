@@ -19,7 +19,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link className="neonText pulsate" to="/post/adobe-ps">Photoshop作例</Link>
+              <Link className="new-neon-text-mixin new-pulsate" to="/post/adobe-ps">Photoshop作例</Link>
             </Accordion.Body>
             <Accordion.Body>
               <Link to="/post/adobe-lr">Ligthroom作例</Link>
