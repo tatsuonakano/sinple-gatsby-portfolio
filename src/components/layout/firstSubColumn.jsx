@@ -11,8 +11,7 @@ const FirstSubColumn = () => (
   <>
     <div className="d-none d-sm-block col-sm-4 col-xl-3">
 
-        <Accordion className="glass-base glass-white-bg bootstrap-opacity" defaultActiveKey={['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','10','11','12']} alwaysOpen flush>
-
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity" defaultActiveKey={['0', ]} alwaysOpen flush>
           <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">Adobe作例
@@ -34,8 +33,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/post/adobe-pr">Premiere pro作例</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="1">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">Stable diffusion作例
               </span>
@@ -53,9 +54,11 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/post/stable-steam_punk">スチームパンク</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="2">
-            <Accordion.Header coler="info">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
+            <Accordion.Header>
               <span className="accordionHeaderStyle">Lottie
               </span>
             </Accordion.Header>
@@ -63,8 +66,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/404">404 Not Found</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="3">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">Gatsby
               </span>
@@ -72,19 +77,23 @@ const FirstSubColumn = () => (
             <Accordion.Body>
               <Link className="accordion-item-text" to="/#">#</Link>
             </Accordion.Body>
-          </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="4">
+            </Accordion.Item>
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">Github
               </span>
-            </Accordion.Header>
-            <Accordion.Body>
+              </Accordion.Header>
+              <Accordion.Body>
               <a className="accordion-item-text" href="https://github.com/tatsuonakano/sinple-gatsby-portfolio/tree/develop" target="_blank" rel="noopener noreferrer">当サイトのソースコード</a>
-            </Accordion.Body>
-          </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="5">
+              </Accordion.Body>
+              </Accordion.Item>
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">Stock Photo
               </span>
@@ -93,8 +102,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/#">#</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="6">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">3D表示
               </span>
@@ -103,8 +114,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/#">#</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="7">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">This Site
               </span>
@@ -119,8 +132,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/privact">プライバシーポリシー</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="8">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">D3.js
               </span>
@@ -129,8 +144,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/#">#</Link>
             </Accordion.Body>
           </Accordion.Item>
-
-          <Accordion.Item className="accordion-item-bg" eventKey="9">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">MUI(material-ui)
               </span>
@@ -139,8 +156,10 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/inquiry">問い合わせ</Link>
             </Accordion.Body>
           </Accordion.Item>
-          
-          <Accordion.Item className="accordion-item-bg-Rbootst" eventKey="10">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">React-Bootstrap
               </span>
@@ -154,8 +173,10 @@ const FirstSubColumn = () => (
             </div>
             </Accordion.Body>
           </Accordion.Item>
-          
-          <Accordion.Item className="accordion-item-bg" eventKey="11">
+        </Accordion>
+        
+        <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+          <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">TailwindCSS
               </span>
@@ -164,55 +185,59 @@ const FirstSubColumn = () => (
               <Link className="accordion-item-text" to="/#">#</Link>
             </Accordion.Body>
           </Accordion.Item>
+          </Accordion>
           
-          <Accordion.Item className="accordion-item-bg" eventKey="12">
-            <Accordion.Header>
-              <span className="accordionHeaderStyle">React ライブラリ
-              </span>
-            </Accordion.Header>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Loader Spinner</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">Video React</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Typed</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Animations</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Reveal</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">react beautiful dnd</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">Recharts</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">Visx</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React StockCharts</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">Material Table</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React PDF</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Awesome Slider</Link>
-            </Accordion.Body>
-            <Accordion.Body>
-              <Link className="accordion-item-text" to="/#">React Image Gallery</Link>
-            </Accordion.Body>
-          </Accordion.Item>
-
-
-        </Accordion>
+          <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
+            <Accordion.Item className="accordion-item-bg" eventKey="0">
+              <Accordion.Header>
+                <span className="accordionHeaderStyle">React ライブラリ
+                </span>
+              </Accordion.Header>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Loader Spinner</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">Video React</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Typed</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Animations</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Reveal</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">react beautiful dnd</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">Recharts</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">Visx</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React StockCharts</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">Material Table</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React PDF</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Awesome Slider</Link>
+              </Accordion.Body>
+              <Accordion.Body>
+                <Link className="accordion-item-text" to="/#">React Image Gallery</Link>
+              </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+        
+        
+        
+        
         
         <div className="mt-3 pb-3 px-3 glass-base glass-white-bg opacity-lv-03"><hr/>コンテンツ</div>
     </div>
