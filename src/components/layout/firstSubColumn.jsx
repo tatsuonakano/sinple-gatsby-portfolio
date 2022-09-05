@@ -2,6 +2,7 @@
 import React from "react"
 import { Link } from 'gatsby';
 import '../../styles/layout.scss';
+import '../../styles/neon-test.scss';
 import Accordion from 'react-bootstrap/Accordion'
 
 
@@ -18,7 +19,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/post/adobe-ps">Photoshop作例</Link>
+              <Link className="neonText pulsate" to="/post/adobe-ps">Photoshop作例</Link>
             </Accordion.Body>
             <Accordion.Body>
               <Link to="/post/adobe-lr">Ligthroom作例</Link>
@@ -79,7 +80,7 @@ const FirstSubColumn = () => (
               </span>
             </Accordion.Header>
             <Accordion.Body>
-              <Link to="/#">#</Link>
+              <a href="https://github.com/tatsuonakano/sinple-gatsby-portfolio/tree/develop" target="_blank" rel="noopener noreferrer">当サイトのソースコード</a>
             </Accordion.Body>
           </Accordion.Item>
 
