@@ -1,7 +1,7 @@
 @import "./variable.scss";
 
-$neon-coler: rgba(255, 255, 255,0.9);
-$neon-text-coler: purple;
+// $neon-coler: rgba(255, 255, 255,0.9);
+// $neon-text-coler: purple;
 // ネオンカラー変数
 
 // .neonText {
@@ -121,7 +121,7 @@ $neon-text-coler: purple;
 .new-neon-text-mixin {
   @include neon-text-mixin();
 }
-.new-neonText-mixin:hover {
+.new-neon-text-mixin:hover {
     color: black !important;
 }
 
