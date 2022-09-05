@@ -33,10 +33,48 @@
 }
 
 .accordionHeaderStyle {
+  // サイドバーアコーディオンスタイル
   font-weight: bold;
-  font-size: 21px;
-  coler:black;
+  font-size: 30px;
+  color: rgba(0, 0, 0,1.0); 
+  letter-spacing: 1px;
 }
+
+.accordion-item-bg {
+  background-color: #001e43
+}
+
+.accordion-item-bg-Rbootst {
+  background-color: #006eb0
+}
+.accordion-item-text-Rbootst {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255,1.0); 
+  opacity: 1.0;
+  text-shadow: 0 0 20px black;
+  letter-spacing: 2px;
+}
+
+
+.accordion-item-text{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255,1.0); 
+  opacity: 1.0;
+  text-shadow: 0 0 20px black;
+  letter-spacing: 2px;
+}
+
+.accordion-item-text:hover{
+  color: #a2c2e6;
+}
+
 .mainColumnBoxStyle {
   word-wrap:break-all;
   margin: 0px;
