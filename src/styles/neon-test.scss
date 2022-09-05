@@ -62,15 +62,17 @@
 // 動作はまだ確認できていない>>>動作確認できたよもう少しソースコードを綺麗にして統合しよう
 // きちんと動作するのであれば本流のソースコードに統合
 // git commitする
+
+// いくらCSSアニメーションといえど多用すると動きがかくかくするので不採用
 @mixin neon-text-mixin(
-  $neon-text-coler-mixin:black,
-  $neon-coler-mixin:black,
+  $neon-text-coler-mixin:#1abef6,
+  $neon-coler-mixin:#1abef6,
   )
   {
   // ネオンテキスト
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
+  color: rgba(255, 255, 255,0.9);
   text-shadow:
      0 0 7px $neon-text-coler-mixin,
      0 0 10px $neon-text-coler-mixin,
@@ -84,8 +86,8 @@
 
 
 @mixin pulsate-keyframes-100-mixin (
-  $neon-text-coler-keyframes-100:black,
-  $neon-coler-keyframes-100:black
+  $neon-text-coler-keyframes-100:#1abef6,
+  $neon-coler-keyframes-100:#1abef6
   )
 {
   text-shadow:
@@ -100,8 +102,8 @@
 }
 
 @mixin pulsate-keyframes-0-mixin (
-  $neon-text-coler-keyframes-0:black,
-  $neon-coler-keyframes-0:black
+  $neon-text-coler-keyframes-0:#1abef6,
+  $neon-coler-keyframes-0:#1abef6
   )
   {
     text-shadow:
@@ -122,7 +124,7 @@
   @include neon-text-mixin();
 }
 .new-neon-text-mixin:hover {
-    color: black !important;
+    color: rgba(255, 255, 255,1.0);
 }
 
 .new-pulsate {
