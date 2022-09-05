@@ -78,12 +78,15 @@
 }
 
 .bootstrap-opacity{
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .text-coler{
   text-decoration: none;
   font-weight: bold;
-  color: rgba(0, 0, 0,1) 
+  font-size: 20px;
+  color: rgba(255, 255, 255,1.0); 
+  opacity: 1.0;
+  text-shadow: 0 0 20px black;
 }
 
 

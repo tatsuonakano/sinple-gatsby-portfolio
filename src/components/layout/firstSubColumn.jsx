@@ -209,7 +209,7 @@ const FirstSubColumn = () => (
 
         </Accordion>
         
-        <div className="mt-3 pb-3 px-3 glass-base glass-white-bg opacity-lv-07"><hr/>コンテンツ</div>
+        <div className="mt-3 pb-3 px-3 glass-base glass-white-bg opacity-lv-03"><hr/>コンテンツ</div>
     </div>
   </>
 )
