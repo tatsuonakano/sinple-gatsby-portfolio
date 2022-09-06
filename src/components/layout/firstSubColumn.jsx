@@ -10,7 +10,6 @@ const FirstSubColumn = () => (
 
   <>
     <div className="d-none d-sm-block col-sm-4 col-xl-3">
-
         <Accordion className="glass-base glass-white-bg bootstrap-opacity" defaultActiveKey={['0', ]} alwaysOpen flush>
           <Accordion.Item className="accordion-item-bg" eventKey="0">
             <Accordion.Header>
@@ -159,7 +158,7 @@ const FirstSubColumn = () => (
         </Accordion>
         
         <Accordion className="glass-base glass-white-bg bootstrap-opacity mt-3" defaultActiveKey={['0', ]} alwaysOpen flush>
-          <Accordion.Item className="accordion-item-bg" eventKey="0">
+          <Accordion.Item className="accordion-item-bg-Rbootst" eventKey="0">
             <Accordion.Header>
               <span className="accordionHeaderStyle">React-Bootstrap
               </span>
@@ -234,10 +233,6 @@ const FirstSubColumn = () => (
               </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-        
-        
-        
-        
         
         <div className="mt-3 pb-3 px-3 glass-base glass-white-bg opacity-lv-03"><hr/>コンテンツ</div>
     </div>
