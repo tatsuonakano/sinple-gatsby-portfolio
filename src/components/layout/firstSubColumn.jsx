@@ -130,6 +130,9 @@ const FirstSubColumn = () => (
             <Accordion.Body>
               <Link className="accordion-item-text" to="/privact">プライバシーポリシー</Link>
             </Accordion.Body>
+            <Accordion.Body>
+              <Link className="accordion-item-text" to="/category">カテゴリー一覧</Link>
+            </Accordion.Body>
           </Accordion.Item>
         </Accordion>
         

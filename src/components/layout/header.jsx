@@ -34,23 +34,13 @@ const Header = () => (
                   title="記事カテゴリー一覧"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
                 >
-                  <NavDropdown.Item href="#action3">カテゴリーリンク</NavDropdown.Item>
+                  <NavDropdown.Item href="/category/adobe">Adobe 作例</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  
+                  <NavDropdown.Item href="/category/Stable-diffusion">Stable-diffusion 作例</NavDropdown.Item>
                   <NavDropdown.Divider />
                 </NavDropdown>
                 
-                <NavDropdown
-                  title="記事タグ一覧"
-                  id={`offcanvasNavbarDropdown-expand-${expand}`}
-                >
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
-               </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
-               </NavDropdown.Item>
-                </NavDropdown>
                 
                 <Nav.Link href="#action2">問い合わせ</Nav.Link>
                 <Nav.Link href="#action2">プライバシーポリシー</Nav.Link>

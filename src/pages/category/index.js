@@ -6,16 +6,19 @@ const CategoryList = ({ data }) => {
  return (
    <Layout>
    <div>
+     <hr/>
      <h1>カテゴリ一覧</h1>
      <ul>
        {categories.map( category => {
          return (
            <li key={category.fieldValue}>
+             <hr/>
              <Link to={category.fieldValue}>{category.fieldValue}</Link>
            </li>
          )
        })}
      </ul>
+     <hr/>
    </div>
    </Layout>
  )
