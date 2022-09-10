@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkglass_gatsby=self.webpackChunkglass_gatsby||[]).push([[400],{3076:function(e,l,t){t.r(l);var a=t(7294),n=t(1597),u=t(9095);l.default=function(e){var l=e.data.allMdx.categories;return a.createElement(u.Z,null,a.createElement("div",null,a.createElement("h1",null,"カテゴリ一覧"),a.createElement("ul",null,l.map((function(e){return a.createElement("li",{key:e.fieldValue},a.createElement(n.Link,{to:e.fieldValue},e.fieldValue))})))))}}}]);
+//# sourceMappingURL=component---src-pages-category-index-js-857c080305c2c1f30687.js.map
